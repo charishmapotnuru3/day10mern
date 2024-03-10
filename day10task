@@ -1,0 +1,62 @@
+*what is while loop?why we use it?
+-->A while loop is a control flow statement that repeatedly executes a block of code as long as a specified condition is true.
+   Ex:
+         x = 0
+        while x < 5:
+            print(x)
+             x += 1
+  -While loops are used to repeatedly execute a block of code as long as a specified condition remains true, facilitating iterative tasks and dynamic program flow control.
+
+
+*what is function?why we use functions?
+-->A function in Python is a block of reusable code designed to perform a specific task when called upon, aiding in code organization and facilitating code reuse and modularity.
+   ex: 
+           def greet(name):
+             return f"Hello, {name}!"
+-Functions in Python help modularize code by encapsulating specific tasks or operations, promoting reusability, readability, and maintainability of code.
+
+
+*what is function keyword?how to specify it?
+-->In Python, the "def" keyword is used to define a function. To specify it, you start with the "def" keyword followed by the function name and its parameters,
+   if any, enclosed within parentheses. For example:
+    ex:
+       def my_function(parameter1, parameter2):
+               ---------
+               ---------
+
+
+*how to write multiple varibles in single line?
+-->In Python, you can assign multiple variables in a single line by separating them with commas. 
+   For example:
+           a, b, c = 1, 2, 3
+    This assigns the values `1`, `2`, and `3` to variables `a`, `b`, and `c` respectively, all in a single line.
+
+*what are the parameters to give for mapping method?
+-->The `eval()` function in Python takes a single parameter, which is a string representing a valid Python expression or statement.
+   This string will be evaluated as Python code, and the result of the evaluation will be returned.
+
+*what are positional and keyword arguments?
+-->In Python, when calling a function, arguments can be passed in two ways: positional arguments and keyword arguments.
+
+   1. Positional Arguments: These are arguments passed to a function in the order they are defined in the function's parameter list.
+                            Their positions (order) are crucial, as each argument is matched to its corresponding parameter based on its position.
+
+      Example:
+              def greet(name, location):
+                print(f"hello{name}")
+                print(f"your{age}")
+           
+            greet("maha",20)
+  2. Keyword Arguments:These are arguments passed to a function with explicit parameter names. Their positions don't matter as long as they are correctly matched with their corresponding parameter names.
+
+    Example:
+         def greet(name, age):
+            print(f"Hello, {name}! You are {age} years old.")
+       greet(age=20, name="maha")  # The order is different, but arguments are matched by their parameter names
+
+
+
+
+
+
+
